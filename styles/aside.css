@@ -6,13 +6,17 @@ aside {
   align-items: center;
   gap: 48px;
   align-self: stretch;
+ 
+}
 
-  & header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  }
+.back-final header {
+  gap: 8px;
 }
 
 .contat {
@@ -22,4 +26,11 @@ aside {
 aside p {
   color: var(--gray-500);
   
+}
+
+.adjustments {
+  display: flex;
+  flex-direction: column;
+  
+  gap: 22px;
 }

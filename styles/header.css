@@ -2,12 +2,9 @@
   display: flex;
   justify-items: center;
   align-items: center;
+  flex-direction: column;
 
   padding: 100px 120px 57px 163px;
-  display: flex;
-  flex-direction: column;
-  
-  align-items: center;
 }
 
 header fieldset {
@@ -21,8 +18,7 @@ header fieldset {
   width: 112px;
   height: 112px;
 
-  margin-bottom: 56px;
-   
+  margin-bottom: 56px;   
 }
 
 .logo {
@@ -32,9 +28,6 @@ header fieldset {
 
   border-radius: 9999px;
   border: 3px solid #E3646E;
-
-  
-
 }
 
 .code {
@@ -43,9 +36,8 @@ header fieldset {
   flex-shrink: 0;
 
   position: absolute;
-  top: 34%;
-  left: 52%;
-
+  top: 30%;
+  left: 51.5%;
 }
 
 header h4 {
@@ -75,12 +67,10 @@ header h1 {
   height: 40px;
 
   margin-bottom: 50px;
-
 }
 
 .arrow {
-  margin-top: 94px;
-  
+  margin-top: 94px; 
 }
 
 
@@ -93,13 +83,17 @@ header h1 {
   gap: 16px;
   
   width: 280px;
-
 }
 
 #info li {
   display: flex;
+  padding: 8px 16px;
   justify-content: center;
   align-items: center;
+  gap: 8px;
+
+  background: var(--gray-300);
+  border-radius: 999px;
 }
 
 header ul {
