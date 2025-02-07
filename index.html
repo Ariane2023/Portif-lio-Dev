@@ -15,64 +15,96 @@
   
 </head>
 <body>
-  <header>
-    <img src="./assets/logo.png" alt="">
-    <p>Hello World! Meu nome é Martina Santos e sou</p>
-    <h1>Desenvolvedora Fullstack</h1>
-    <p>Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p>
-    <div class="skills">
-      <img src="./assets/GitHub.svg" alt="">
-      <img src="./assets/HTML.svg" alt="">
-      <img src="./assets/CSS.svg" alt="">
-      <img src="./assets/JavaScript.svg" alt="">
-      <img src="./assets/React.svg" alt="">
-      <img src="./assets/Node.js.svg" alt="">
-    </div>
+  <header class="first back">
 
-    <img src="./assets/CaretDoubleDown.svg" alt="seta apontando para baixo">
+    <fieldset>
+      <img class="logo" src="./assets/Image.png" alt="">
+      <img class="code" src="./assets/Code.svg" alt="">
+    </fieldset>
+  
+    <h4>Hello World! Meu nome é <span>Martina Santos</span> e sou</h4>
+    <h1>Desenvolvedora Fullstack</h1>
+    <p class="box">Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p>
+    <ul id="info">
+        <li>
+          <img src="./assets/GitHub.svg" alt="Ìcone do Github">
+          <span>Github</span>
+        </li>
+
+        <li>
+          <img src="./assets/HTML.svg" alt="Ìcone do Html">
+          <span>HTML</span>
+        </li>
+
+        <li>
+          <img src="./assets/CSS.svg" alt="Ìcone do CSS">
+          <span>CSS</span>
+        </li>
+
+        <li>
+          <img src="./assets/JavaScript.svg" alt="Ìcone do JavaScript">
+          <span>CSS</span>
+        </li>
+
+        <li>
+          <img src="./assets/React.svg" alt="Ìcone do JavaScript">
+          <span>React</span>
+        </li>
+
+        <li>
+          <img src="./assets/Node.js.svg" alt="Ìcone do Node">
+          <span>Node.js</span>
+        </li>
+    
+    </ul>
+
+    <img class="arrow" src="./assets/CaretDoubleDown.svg" alt="seta apontando para baixo">
   </header>
 
   <main>
     <section id="works">
       <header>
-        <p>Meu trabalho</p>
-        <p>Veja os projetos em destaque</p>
+        <p class="main-red Subtitle">Meu trabalho</p>
+        <h3 class="base-gray">Veja os projetos em destaque</h3>
       </header>
       
-      <div>
+      <div class="project">
         <figure>
           <img src="./assets/Thumbnail_Project-01.png" alt="Foto de uma rede social onde as pessoas mostram os registros de suas viagens pelo mundo">
-          <span class="contant-tag">Travelgran</span>
-          <p>Rede social onde as pessoas mostram os registros de suas viagens pelo mundo</p>
+          <div id="description">
+            <span class="contant-tag base-gray">Travelgran</span>
+            <p>Rede social onde as pessoas mostram os registros de suas viagens pelo mundo</p>
+          </div>
+          
         </figure>
         
         <figure>
           <img src="./assets/Thumbnail_Project-02.png" alt="Homepage de um portal de notícias sobre a área de tecnologia">
-          <span class="contant-tag">Tech News</span>
+          <span class="contant-tag base-gray">Tech News</span>
           <p>Homepage de um portal de notícias sobre a área de tecnologia</p>
         </figure>
 
         <figure>
           <img src="./assets/Thumbnail_Project-03.png" alt="Página com o passo a passo de uma receita para cupcakes">
-          <span class="contant-tag">Página de receita</span>
+          <span class="contant-tag base-gray">Página de receita</span>
           <p>Página com o passo a passo de uma receita para cupcakes</p>
         </figure>
 
         <figure>
           <img src="./assets/Thumbnail_Project-04.png" alt="Landing Page completa e responsiva de um aplicativo de Karaokê">
-          <span class="contant-tag">Zingen</span>
+          <span class="contant-tag base-gray">Zingen</span>
           <p>Landing Page completa e responsiva de um aplicativo de Karaokê</p>
         </figure>
 
         <figure>
           <img src="./assets/Thumbnail_Project-05.png" alt="Um sistema para pedido e acompanhamento de reembolso">
-          <span class="contant-tag">Refund</span>
+          <span class="contant-tag base-gray">Refund</span>
           <p>Um sistema para pedido e acompanhamento de reembolso </p>
         </figure>
 
         <figure>
           <img src="./assets/Thumbnail_Project-06.png" alt="Página com as principais informações para quem quer viajar para Busan">
-          <span class="contant-tag">Página de turismo</span>
+          <span class="contant-tag base-gray">Página de turismo</span>
           <p>Página com as principais informações para quem quer viajar para Busan </p>
         </figure>
       </div>
@@ -80,58 +112,58 @@
 
     <section id="services">
       <header>
-        <p>Meus serviços</p>
-        <h3>Como posso ajudar o seu negócio</h3>
+        <p class="main-red Subtitle">Meus serviços</p>
+        <h3 class="base-gray">Como posso ajudar o seu negócio</h3>
       </header>
 
-      <figure>
-        <div>
+      <figcaption id="skills">
+        <div class="card">
           <img src="./assets/devices.svg" alt="">
-          <span class="">Websites e Aplicativos</span>
+          <span class="base-gray">Websites e Aplicativos</span>
           <p>Desenvolvimento de interfaces</p>
         </div>
 
-        <div>
+        <div class="card">
           <img src="./assets/hardDrivers.svg" alt="">
-          <span class="">API e banco de dados</span>
+          <span class="base-gray">API e banco de dados</span>
           <p>Criação de serviços do sistema </p>
         </div>
 
-        <div>
+        <div class="card">
           <img src="./assets/card.svg" alt="">
-          <span class="">DevOps</span>
+          <span class="base-gray">DevOps</span>
           <p>Gestão e infraestrutura da aplicação </p>
         </div>
-      </figure>
+      </figcaption>
     </section>
 
-    <aside>
+    <aside class="back">
       <header>
-        <p>Contato</p>
-        <h3>Gostou do meu trabalho?</h3>
-        <p>Entre em contato ou acompanhe as minhas redes sociais</p>
+        <p class="contat">Contato</p>
+        <h3 class="h3">Gostou do meu trabalho?</h3>
+        <p class="gray-500">Entre em contato ou acompanhe as minhas redes sociais!</p>
       </header>
       <div>
         <img src="./assets/LinkedinLogo.svg" alt="">
-        <span class="social-midia">Linkedin</span>
+        <span class="social-midia gray-500">Linkedin</span>
         <span></span>
       </div>
 
       <div>
         <img src="./assets/InstagramLogo.svg" alt="">
-        <span class="social-midia">Instagram</span>
+        <span class="social-midia gray-500">Instagram</span>
         <span></span>
       </div>
 
       <div>
         <img src="./assets/GithubLogo.svg" alt="">
-        <span class="social-midia">Github</span>
+        <span class="social-midia gray-500">Github</span>
         <span></span>
       </div>
 
       <div>
         <img src="./assets/EnvelopeSimple.svg" alt="">
-        <span class="social-midia">Email</span>
+        <span class="social-midia gray-500">Email</span>
         <span></span>
       </div>
     </aside>
